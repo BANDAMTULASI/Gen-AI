@@ -1,5 +1,5 @@
-import { AuthenticatedAgentChat } from "./_components/authenticated-agent-chat";
+import LoginPage from "./login/page";
 
 export default function Page() {
-  return <AuthenticatedAgentChat />;
+  return <LoginPage />;
 }
